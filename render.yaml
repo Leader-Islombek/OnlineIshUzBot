@@ -3,8 +3,8 @@ services:
     name: OnlineIshUzBot
     env: python
     pythonVersion: 3.11.8
-    buildCommand: "pip install -r requirements.txt"
-    startCommand: "python bot.py"
+    buildCommand: "pip install -r src/requirements.txt"
+    startCommand: "python src/bot.py"
     autoDeploy: true
     envVars:
       - key: BOT_TOKEN
